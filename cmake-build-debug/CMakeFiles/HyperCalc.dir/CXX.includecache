@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Adriano.KRULL4/Documents/Projetos C++/HyperCalc/main.cpp
+iostream
+-
+cstdlib
+-
+windows.h
+-
+mymath.h
+C:/Users/Adriano.KRULL4/Documents/Projetos C++/HyperCalc/mymath.h
+
+C:/Users/Adriano.KRULL4/Documents/Projetos C++/HyperCalc/mymath.cpp
+iostream
+-
+cmath
+-
+mymath.h
+C:/Users/Adriano.KRULL4/Documents/Projetos C++/HyperCalc/mymath.h
+
+C:/Users/Adriano.KRULL4/Documents/Projetos C++/HyperCalc/mymath.h
+

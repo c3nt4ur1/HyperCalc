@@ -1,0 +1,3 @@
+C:/Users/Adriano.KRULL4/Documents/Projetos C++/HyperCalc/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Adriano.KRULL4/Documents/Projetos C++/HyperCalc/cmake-build-debug/CMakeFiles/HyperCalc.dir
+C:/Users/Adriano.KRULL4/Documents/Projetos C++/HyperCalc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
