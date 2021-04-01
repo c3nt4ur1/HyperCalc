@@ -14,7 +14,7 @@ int main()
 
     while (true)
     {
-        char saida;
+        char saida; 
 
         char categoria;
 
