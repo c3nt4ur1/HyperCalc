@@ -6,7 +6,7 @@
 #include <cmath>
 #include "mymath.h"
 
-using namespace std;
+using namespace std; 
 
 /*
  * Funções Aritméticas Simples
