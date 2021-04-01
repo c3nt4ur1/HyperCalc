@@ -23,7 +23,7 @@ double area_triangulo(double base, double altura);
 double area_quadrado(double lado);
 double volume_cubo(double lado);
 double hipo(double a, double b);
-double cat(double a, double c);
+double cat(double a, double c); 
 double si(double n);
 double ai(double n);
 double ae (double n);
