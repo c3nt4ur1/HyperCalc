@@ -10,7 +10,7 @@ int main()
 {
 
     //Configuração do Console
-    SetConsoleTitle("GeoCalc");
+    SetConsoleTitle("HyperCalc");
 
     while (true)
     {
