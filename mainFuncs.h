@@ -1,5 +1,5 @@
 //
-// Created by Adriano on 07/04/2021.
+// Created by c3nt4ur1 on 07/04/2021.
 //
 
 #ifndef HYPERCALC_MAINFUNCS_H
