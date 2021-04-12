@@ -1,9 +1,16 @@
+//©c3nt4ur1 - 2021
+
 //Inclusões
+/*
+ * windows.h -> Título do console
+ */
 #include <iostream>
-#include <cstdlib>
 #include <windows.h>
 #include "mainFuncs.h"
-//Constantes
+/*
+ * Constantes de opções
+ * Substituem os char's no control-flow
+ */
 #define OPERACOES_BASICAS '1'
 #define FORMULAS_GEOMETRICAS '2'
 #define POTENCIAS_E_RAIZES '3'
@@ -12,10 +19,8 @@
 //Namespaces
 using namespace std;
 int main() {
-
     //Configuração do Console
     SetConsoleTitle("HyperCalc");
-
     while (true) {
         char categoria;
 
