@@ -23,6 +23,14 @@ int main() {
     SetConsoleTitle("HyperCalc");
     while (true) {
         char categoria;
+        cout << "Bem vindo ao HyperCalc\n\n";
+        //Assinatura Funcionando. NÂO ALTERAR!
+        cout << "   _______   _______   __      __   ___________   ________    _     _    ________     __" << endl;
+        cout << " /  _____/  | _____|  | |    /  |  |___    ___|  |   ___  |  | |   | |  |   ___  |   |__|" << endl;
+        cout << " |  |       | |___    | |  / /| |      |  |      |  |__|  |  | |   | |  |  |__| _|    __" << endl;
+        cout << " |  |       | ____|   | | / / | |      |  |      |   __   |  | |   | |  | | \\ \\      |  |" << endl;
+        cout << " |  |____   | |____   | |/ /  | |      |  |      |  |  |  |  | |___| |  | |  \\ \\     |  |" << endl;
+        cout << "  \\______/  |______|  |___/   |_|      |__|      |__|  |__|   \\_____/   |_|  \\__\\    |__|"  << endl;
 
         cout << "Digite o numero da categoria de calculo desejado: \n";
         cout << "1)Operacoes Basicas\n";
