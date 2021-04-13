@@ -1,3 +1,5 @@
+//©c3nt4ur1 - 2021
+
 /*
  * Created by c3nt4ur1 on 07/04/2021.
  */
@@ -7,8 +9,7 @@
 using namespace std;
 
 void cat1(){
-    double num1;
-    double num2;
+    double num1, num2;
 
     char operacao;
 

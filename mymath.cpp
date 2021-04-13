@@ -1,3 +1,5 @@
+//©c3nt4ur1 - 2021
+
 /*
  *  Created by c3nt4ur1 on 18/03/2021.
  */
@@ -5,7 +7,6 @@
 #include <iostream>
 #include <cmath>
 #include "mymath.h"
-
 using namespace std; 
 
 /*
