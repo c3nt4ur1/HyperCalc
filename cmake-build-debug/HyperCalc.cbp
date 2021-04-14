@@ -95,6 +95,12 @@
 		<Unit filename="C:/Users/Adriano.KRULL4/Documents/Projetos C++/HyperCalc/mymath.h">
 			<Option target="HyperCalc"/>
 		</Unit>
+		<Unit filename="C:/Users/Adriano.KRULL4/Documents/Projetos C++/HyperCalc/otherFunctions.cpp">
+			<Option target="HyperCalc"/>
+		</Unit>
+		<Unit filename="C:/Users/Adriano.KRULL4/Documents/Projetos C++/HyperCalc/otherFunctions.h">
+			<Option target="HyperCalc"/>
+		</Unit>
 		<Unit filename="C:/Users/Adriano.KRULL4/Documents/Projetos C++/HyperCalc/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

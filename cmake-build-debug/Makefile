@@ -222,6 +222,33 @@ mymath.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HyperCalc.dir\build.make CMakeFiles/HyperCalc.dir/mymath.cpp.s
 .PHONY : mymath.cpp.s
 
+otherFunctions.obj: otherFunctions.cpp.obj
+
+.PHONY : otherFunctions.obj
+
+# target to build an object file
+otherFunctions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HyperCalc.dir\build.make CMakeFiles/HyperCalc.dir/otherFunctions.cpp.obj
+.PHONY : otherFunctions.cpp.obj
+
+otherFunctions.i: otherFunctions.cpp.i
+
+.PHONY : otherFunctions.i
+
+# target to preprocess a source file
+otherFunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HyperCalc.dir\build.make CMakeFiles/HyperCalc.dir/otherFunctions.cpp.i
+.PHONY : otherFunctions.cpp.i
+
+otherFunctions.s: otherFunctions.cpp.s
+
+.PHONY : otherFunctions.s
+
+# target to generate assembly for a file
+otherFunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HyperCalc.dir\build.make CMakeFiles/HyperCalc.dir/otherFunctions.cpp.s
+.PHONY : otherFunctions.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -240,6 +267,9 @@ help:
 	@echo ... mymath.obj
 	@echo ... mymath.i
 	@echo ... mymath.s
+	@echo ... otherFunctions.obj
+	@echo ... otherFunctions.i
+	@echo ... otherFunctions.s
 .PHONY : help
 
 

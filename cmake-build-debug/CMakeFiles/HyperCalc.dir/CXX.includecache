@@ -9,12 +9,12 @@
 C:/Users/Adriano.KRULL4/Documents/Projetos C++/HyperCalc/main.cpp
 iostream
 -
-cstdlib
--
 windows.h
 -
-mymath.h
-C:/Users/Adriano.KRULL4/Documents/Projetos C++/HyperCalc/mymath.h
+mainFuncs.h
+C:/Users/Adriano.KRULL4/Documents/Projetos C++/HyperCalc/mainFuncs.h
+
+C:/Users/Adriano.KRULL4/Documents/Projetos C++/HyperCalc/mainFuncs.h
 
 C:/Users/Adriano.KRULL4/Documents/Projetos C++/HyperCalc/mymath.cpp
 iostream
