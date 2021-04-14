@@ -5,6 +5,7 @@
 #include "otherFunctions.h"
 
 void signature(){
+    //Assinatura é assim mesmo. NÃO MEXER
     cout << "   _______   _______   __      __   ___________   ________    _     _    ________     __" << endl;
     cout << " /  _____/  | _____|  | |    /  |  |___    ___|  |   ___  |  | |   | |  |   ___  |   |__|" << endl;
     cout << " |  |       | |___    | |  / /| |      |  |      |  |__|  |  | |   | |  |  |__| _|    __" << endl;
@@ -13,8 +14,8 @@ void signature(){
     cout << "  \\______/  |______|  |___/   |_|      |__|      |__|  |__|   \\_____/   |_|  \\__\\    |__|"  << endl;
 }
 void devInfo(){
-    cout << "Developer's Info:\n";
-    cout << "Developer: c3nt4ur1\n";
+    cout << "Information for Developers:\n";
+    cout << "Dev: c3nt4ur1\n";
     cout << "Version: 1.1.0\n";
     cout << "Compiler: MinGw 4.4.1\n";
     cout << "Project structure: CMake\n";
