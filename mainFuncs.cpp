@@ -215,6 +215,15 @@ void cat5(){
 
     }
 }
+void cat6(){
+    int n;
+    cout << "Digite o número a ser testado: ";
+    cin >> n;
+    if(isPrime(n))
+        cout << "O numero " << n << " e primo.\n";
+    else
+        cout << "O numero " << n << " nao e primo\n";
+}
 
 //   _______   _______   __      __   ___________   ________    _     _    ________    __
 // /  _____/  | _____|  | |    /  |  |___    ___|  |   ___  |  | |   | |  |   ___  |  |__|
