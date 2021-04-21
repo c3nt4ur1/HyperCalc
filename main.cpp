@@ -78,32 +78,32 @@ int main() {
             cin.get();
             return 0;
         }
-        else if(categoria == 0x68 || categoria == 0x48) {
+        else if(categoria == 'h' || categoria == 'H') {
             help();
             char retornar;
             cout << "Deseja voltar a tela inicial?(S/N)";
             cin >> retornar;
-            if(retornar == 0x53 || retornar == 0x73) {
+            if(retornar == 'S' || retornar == 's') {
                 continue;
             } else {
                 return 0;
             }
-        } else if(categoria == 0x64 || categoria == 0x44) {
+        } else if(categoria == 'd' || categoria == 'D') {
             devInfo();
             char retornar;
             cout << "Deseja voltar a tela inicial?(S/N)";
             cin >> retornar;
-            if(retornar == 0x53 || retornar == 0x73) {
+            if(retornar == 'S' || retornar == 's') {
                 continue;
             } else {
                 return 0;
             }
-        } else if(categoria == 0x61 || categoria == 0x41){
+        } else if(categoria == 'a' || categoria == 'A'){
             about();
             char retornar;
             cout << "Deseja voltar a tela inicial?(S/N)";
             cin >> retornar;
-            if(retornar == 0x53 || retornar == 0x73) {
+            if(retornar == 'S' || retornar == 's') {
                 continue;
             } else {
                 return 0;
@@ -114,7 +114,7 @@ int main() {
         char retornar;
         cout << "Deseja voltar à tela inicial?(S/N)";
         cin >> retornar;
-        if(retornar == 0x53 || retornar == 0x73) {
+        if(retornar == 'S' || retornar == 's') {
             continue;
         } else {
             return 1;
