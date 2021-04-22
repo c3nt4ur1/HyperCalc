@@ -74,13 +74,15 @@ bool isPrime(int num){
 }
 void divisores(int n){
     double divs[25] = {};
-    if(isPrime(n))
+    if(isPrime(n)) {
         cout << "Divisores: 1 e " << n << endl;
+        exit(0);
+    }
     else{
-        int i = 0;
-        for(; i < n; i++){
+        int i = 1;
+        for(; i <= n; i++){
             if(n % i == 0){
-                divs[i] = i;
+                divs[i - 1] = i;
             }
         }
         cout << "Divisores:";
