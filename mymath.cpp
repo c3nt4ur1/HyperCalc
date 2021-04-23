@@ -10,12 +10,12 @@
 #include "mymath.h"
 using namespace std;
 
-namespace maths {
+inline namespace maths {
 // Funções Aritméticas Simples
-    inline double soma (double n1, double n2){return n1 + n2;}
-    inline double subtracao (double minuendo, double subtraendo){return minuendo - subtraendo;}
-    inline double multiplicacao (double fat1, double fat2){return fat1 * fat2;}
-    inline double divisao (double dividendo, double divisor){return dividendo / divisor;}
+    double soma (double n1, double n2){return n1 + n2;}
+    double subtracao (double minuendo, double subtraendo){return minuendo - subtraendo;}
+    double multiplicacao (double fat1, double fat2){return fat1 * fat2;}
+    double divisao (double dividendo, double divisor){return dividendo / divisor;}
 
     //Potência de qualquer grau int e raizes quadradas
     double potencia(double base, int expoente){
@@ -49,23 +49,23 @@ namespace maths {
     }
     //Funções Geométricas
 
-    inline double area_triangulo(double base, double altura) { return (base * altura) / 2; }
-    inline double area_quadrado(double lado) { return (double) lado * lado; }
-    inline double volume_cubo(double lado) { return lado * lado * lado; }
-    inline double hipo(double a, double b) { return sqrt((a * a) + (b * b)); }
-    inline double cat(double a, double c) { return sqrt((c * c) - (a * a)); }
-    inline double si(double n) { return (n - 2) * 180; }
-    inline double ai(double n) { return si(n) / n; }
-    inline double ae(double n) { return 360 / n; }
+    double area_triangulo(double base, double altura) { return (base * altura) / 2; }
+    double area_quadrado(double lado) { return (double) lado * lado; }
+    double volume_cubo(double lado) { return lado * lado * lado; }
+    double hipo(double a, double b) { return sqrt((a * a) + (b * b)); }
+    double cat(double a, double c) { return sqrt((c * c) - (a * a)); }
+    double si(double n) { return (n - 2) * 180; }
+    double ai(double n) { return si(n) / n; }
+    double ae(double n) { return 360 / n; }
 
 //Funções Físicas
-    inline double densidade(double massa, double volume) { return massa / volume; }
-    inline double massa(double volume, double densidade) { return volume * densidade; }
-    inline double volume(double densidade, double massa) { return massa / densidade; }
-    inline double cel_fare(double temp_celsius) { return (temp_celsius * 1.8) + 32; }
-    inline double fare_cel(double temp_farenheit) { return (temp_farenheit - 32) * 1.8; }
-    inline double cel_kel(double temp_celsius) { return temp_celsius + 273; }
-    inline double kel_cel(double temp_kelvin) { return temp_kelvin - 273; }
+    double densidade(double massa, double volume) { return massa / volume; }
+    double massa(double volume, double densidade) { return volume * densidade; }
+    double volume(double densidade, double massa) { return massa / densidade; }
+    double cel_fare(double temp_celsius) { return (temp_celsius * 1.8) + 32; }
+    double fare_cel(double temp_farenheit) { return (temp_farenheit - 32) * 1.8; }
+    double cel_kel(double temp_celsius) { return temp_celsius + 273; }
+    double kel_cel(double temp_kelvin) { return temp_kelvin - 273; }
 }
 //Outras Funções
 bool isPrime(int num){
