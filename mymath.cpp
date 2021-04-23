@@ -11,7 +11,7 @@
 using namespace std;
 
 inline namespace maths {
-// Funções Aritméticas Simples
+    // Funções Aritméticas Simples
     double soma (double n1, double n2){return n1 + n2;}
     double subtracao (double minuendo, double subtraendo){return minuendo - subtraendo;}
     double multiplicacao (double fat1, double fat2){return fat1 * fat2;}
@@ -57,7 +57,7 @@ inline namespace maths {
     double ai(double n) { return si(n) / n; }
     double ae(double n) { return 360 / n; }
 
-//Funções Físicas
+    //Funções Físicas
     double densidade(double massa, double volume) { return massa / volume; }
     double massa(double volume, double densidade) { return volume * densidade; }
     double volume(double densidade, double massa) { return massa / densidade; }
@@ -65,6 +65,14 @@ inline namespace maths {
     double fare_cel(double temp_farenheit) { return (temp_farenheit - 32) * 1.8; }
     double cel_kel(double temp_celsius) { return temp_celsius + 273; }
     double kel_cel(double temp_kelvin) { return temp_kelvin - 273; }
+
+    //Outras Funções
+    int fat(int n){
+        for(int i = 0; i < n; i++){
+            n *= i;
+        }
+        return n;
+    }
 }
 //Funções Para Testar Números
 bool isPrime(int num){
@@ -96,14 +104,7 @@ void divisores(int n){
         cout << results[i] << ", ";
     }
     cout << endl;
-}
-//Outras Funções
-int fat(int n){
-    for(int i = 0; i < n; i++){
-        n *= i;
-    }
-    return n;
-}
+}//Outras Funções
 
 //   _______   _______   __      __   ___________   ________    _     _    ________    __
 // /  _____/  | _____|  | |    /  |  |___    ___|  |   ___  |  | |   | |  |   ___  |  |__|

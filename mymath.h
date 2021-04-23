@@ -7,18 +7,18 @@
 #ifndef GEOCALC_MYMATH_H
 #define GEOCALC_MYMATH_H
 
-//Quatro Operações
 inline namespace maths {
+    //Quatro Operações
     double soma(double n1, double n2);
     double subtracao(double minuendo, double subtraendo);
     double multiplicacao(double fat1, double fat2);
     double divisao(double dividendo, double divisor);
-//Potência de qualquer grau double e raizes quadradas
+    //Potência de qualquer grau double e raizes quadradas
     double potencia(double base, int expoente);
     double raiz_quadrada(double radical);
-//Equações
+    //Equações
     void bhaskara(double a, double b, double c);
-//Funções Geométricas
+    //Funções Geométricas
     double area_triangulo(double base, double altura);
     double area_quadrado(double lado);
     double volume_cubo(double lado);
@@ -27,7 +27,7 @@ inline namespace maths {
     double si(double n);
     double ai(double n);
     double ae(double n);
-//Funções Físicas
+    //Funções Físicas
     double densidade(double massa, double volume);
     double massa(double volume, double densidade);
     double volume(double densidade, double massa);
@@ -35,13 +35,13 @@ inline namespace maths {
     double fare_cel(double temp_farenheit);
     double cel_kel(double temp_celsius);
     double kel_cel(double temp_kelvin);
+    //Outras Funções
+    int fat(int n);
 }
-//Funções de teste
+
+//Funções de teste -> Geram algum erro se colocar dentro do namespace
 bool isPrime(int num);
 void divisores(int n);
-
-//Outras Funções
-int fat(int n);
 
 #endif //GEOCALC_MYMATH_H
 

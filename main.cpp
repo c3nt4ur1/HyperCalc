@@ -35,51 +35,51 @@ int main() {
             if (categoria == '1') {
                 cat1();
                 cout << "Pressione qualquer tecla para continuar...\n\n";
-                signature();
                 cin.ignore();
                 cin.get();
+                signature();
                 return 0;
             } else if (categoria == '2') {
                 cat2();
                 cout << "Pressione qualquer tecla para continuar...\n\n";
-                signature();
                 cin.ignore();
                 cin.get();
+                signature();
                 return 0;
             } else if (categoria == '3') {
                 cat3();
                 cout << "Pressione qualquer tecla para continuar...\n\n";
-                signature();
                 cin.ignore();
                 cin.get();
+                signature();
                 return 0;
             } else if (categoria == '4') {
                 cat4();
                 cout << "Pressione qualquer tecla para continuar...\n\n";
-                signature();
                 cin.ignore();
                 cin.get();
+                signature();
                 return 0;
             } else if (categoria == '5') {
                 cat5();
                 cout << "Pressione qualquer tecla para continuar...\n\n";
-                signature();
                 cin.ignore();
                 cin.get();
+                signature();
                 return 0;
             } else if (categoria == '6') {
                 cat6();
                 cout << "Pressione qualquer tecla para continuar...\n\n";
-                signature();
                 cin.ignore();
                 cin.get();
+                signature();
                 return 0;
             } else if(categoria == '7'){
                 cat7();
                 cout << "Pressione qualquer tecla para continuar...\n\n";
-                signature();
                 cin.ignore();
                 cin.get();
+                signature();
                 return 0;
             }else if (categoria == 'h' || categoria == 'H') {
                 help();
