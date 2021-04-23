@@ -20,6 +20,7 @@ void devInfo(){
     cout << "Compiler: MinGw 4.4.1\n";
     cout << "Project structure: CMake (Minimum: 3.17)\n";
     cout << "Dev's OS: Win10 20h2\n";
+    cout << "Exit Codes: 0 = Sucess; 1 = Unknwon Categorie. Exit by the user; -1 = Error with the categorie input\n";
 }
 void help(){
     cout << "Primeiro digite qual a categoria de calculo que deseja usar e pressione ENTER. Depois, digite o numero da";
