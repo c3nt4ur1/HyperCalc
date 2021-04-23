@@ -12,42 +12,42 @@ using namespace std;
 
 namespace maths {
 // Funções Aritméticas Simples
-double soma (double n1, double n2){return n1 + n2;}
-double subtracao (double minuendo, double subtraendo){return minuendo - subtraendo;}
-double multiplicacao (double fat1, double fat2){return fat1 * fat2;}
-double divisao (double dividendo, double divisor){return dividendo / divisor;}
+    double soma (double n1, double n2){return n1 + n2;}
+    double subtracao (double minuendo, double subtraendo){return minuendo - subtraendo;}
+    double multiplicacao (double fat1, double fat2){return fat1 * fat2;}
+    double divisao (double dividendo, double divisor){return dividendo / divisor;}
 
-//Potência de qualquer grau int e raizes quadradas
-double potencia(double base, int expoente){
-    double potencia = base;
-    for(int i = 1; i < expoente; i++){
-        potencia *= base;
-    }
-    return potencia;
-}
-double raiz_quadrada(double radical){return sqrt(radical);}
-//Equações
-void bhaskara(double a, double b, double c){
-    double delta = (b * b) - (4 * a * c);
-    if (a != 0){
-        if (delta > 0){
-            double root1, root2;
-            root1 = (-b + sqrt(delta)) / (2 * a);
-            root2 = (-b - sqrt(delta)) / (2 * a);
-
-            cout << "RAIZ PARA +SQRT(DELTA): " << root1 << endl;
-            cout << "RAIZ PARA -SQRT(DELTA): " << root2 << endl;
-        }else if(delta == 0){
-            double root1 = (-b) / (2 * a);
-            cout << "A EQUACAO TEM UMA RAIZ: " << root1 << endl;
-        }else{
-            cout << "A EQUACAO NAO TEM RAIZES REAIS\n";
+    //Potência de qualquer grau int e raizes quadradas
+    double potencia(double base, int expoente){
+        double potencia = base;
+        for(int i = 1; i < expoente; i++){
+            potencia *= base;
         }
-    }else{
-        cout << "A = 0. EQUAÇÃO NÃO É DO SEGUNDO GRAU.\n";
+        return potencia;
     }
-}
-//Funções Geométricas
+    double raiz_quadrada(double radical){return sqrt(radical);}
+    //Equações
+    void bhaskara(double a, double b, double c){
+        double delta = (b * b) - (4 * a * c);
+        if (a != 0){
+            if (delta > 0){
+                double root1, root2;
+                root1 = (-b + sqrt(delta)) / (2 * a);
+                root2 = (-b - sqrt(delta)) / (2 * a);
+
+                cout << "RAIZ PARA +SQRT(DELTA): " << root1 << endl;
+                cout << "RAIZ PARA -SQRT(DELTA): " << root2 << endl;
+            }else if(delta == 0){
+                double root1 = (-b) / (2 * a);
+                cout << "A EQUACAO TEM UMA RAIZ: " << root1 << endl;
+            }else{
+                cout << "A EQUACAO NAO TEM RAIZES REAIS\n";
+            }
+        }else{
+            cout << "A = 0. EQUAÇÃO NÃO É DO SEGUNDO GRAU.\n";
+        }
+    }
+    //Funções Geométricas
 
     double area_triangulo(double base, double altura) { return (base * altura) / 2; }
     double area_quadrado(double lado) { return (double) lado * lado; }
