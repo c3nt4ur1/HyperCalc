@@ -74,14 +74,14 @@ int main() {
                 cin.get();
                 signature();
                 return 0;
-            } else if(categoria == '7'){
+            } else if (categoria == '7') {
                 cat7();
                 cout << "Pressione qualquer tecla para continuar...\n\n";
                 cin.ignore();
                 cin.get();
                 signature();
                 return 0;
-            }else if (categoria == 'h' || categoria == 'H') {
+            } else if (categoria == 'h' || categoria == 'H') {
                 help();
                 char retornar;
                 cout << "Deseja voltar a tela inicial?(S/N)";
@@ -125,7 +125,7 @@ int main() {
             } else {
                 return 1;
             }
-        }else{
+        } else {
             return -1;
         }
     }
