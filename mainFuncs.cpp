@@ -7,7 +7,12 @@
 #include "mainFuncs.h"
 #include "mymath.h"
 using namespace std;
-using namespace maths;
+using namespace basicOps;
+using namespace rootsAndPowers;
+using namespace geometry;
+using namespace equations;
+using namespace phisics;
+using namespace tests;
 
 void cat1(){
     double num1, num2;
@@ -218,7 +223,7 @@ void cat7(){
         int n;
         cout << "Digite o numero desejado: ";
         cin >> n;
-        cout << fat(n) << endl;
+        cout << fatorial(n) << endl;
     }
 }
 //   _______   _______   __      __   ___________   ________    _     _    ________    __
