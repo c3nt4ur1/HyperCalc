@@ -7,10 +7,7 @@
 #### 4)Equations**
 #### 5)Fisical Formulas
 
-###### *Only square roots are working so far
-###### **So far, we have created only the Bhaskara function
-
-### English version coming soon!
+Archived Repo. For the latest changes, see the QHyperCalculator repository.
 
 #### Hope y'all enjoy it!
 
